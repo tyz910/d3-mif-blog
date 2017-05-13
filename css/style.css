@@ -1,0 +1,88 @@
+body {
+	background-image: url("https://www.mann-ivanov-ferber.ru/assets/images/content-pages/1-aprelya/1-apr.png");
+}
+
+svg,
+svg * {
+	shape-rendering: optimizeSpeed;
+	color-rendering: optimizeSpeed;
+	text-rendering: optimizeSpeed;
+}
+
+.center-block {
+	width: 960px;
+	display: block;
+	margin: 0 auto;
+}
+
+.pos-rel {
+	position: relative;
+}
+
+.pos-abs {
+	position: absolute;
+}
+
+.mif-logo {
+	width: 230px;
+	margin: 20px;
+}
+
+.card-popup {
+	position: relative;
+	width: auto;
+	max-width: 600px;
+	max-height: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.card-popup img {
+	width: 100%;
+}
+
+.card-popup .mfp-close {
+	color: #FFF;
+	font-size: 60px;
+	right: -60px;
+}
+
+.mfp-bg,
+.mfp-wrap {
+	position: fixed!important;
+	height: 100%!important;
+}
+
+.mfp-wrap {
+	top: 0!important;
+}
+
+.card-text {
+	padding: 0 20px;
+	text-decoration: none!important;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	font-family: Tahoma;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+.card-text span {
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.img-fliph {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.node image {
+	cursor: pointer;
+}
